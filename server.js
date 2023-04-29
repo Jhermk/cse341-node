@@ -1,9 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req,res) => {
-  res.send("Hermann Koffi");
-});
+
+app.use('/', require('./routes'));
 
 const port = 3000;
 app.listen(process.env.port || port);
