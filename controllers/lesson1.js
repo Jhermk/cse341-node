@@ -1,5 +1,5 @@
 const homeRoute = (req,res) => {
-    res.send("Hermann Koffi");
+    res.send("Hello Hermann Koffi");
   };
 
 const usernameRoute = (req,res) => {
